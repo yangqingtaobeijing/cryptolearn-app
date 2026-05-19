@@ -7,7 +7,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'History', path: '/history' },
     { name: 'Coins', path: '/coins' },
-    { name: 'Resources', path: '/' },
+    { name: 'Resources', path: '/resources' },
     { name: 'Whitepapers', path: '/whitepapers' },
   ];
 
@@ -22,7 +22,7 @@ export default function Navbar() {
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => {
-            const isActive = location.pathname === link.path || (link.path === '/' && location.pathname === '/');
+            const isActive = location.pathname === link.path || (link.path === '/history' && location.pathname === '/');
             return (
               <Link
                 key={link.name}

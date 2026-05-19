@@ -17,7 +17,7 @@ export default function HistoryPage() {
       desc: '比特币网络正式上线，中本聪在创世区块中留下了当天的泰晤士报头版标题，开启了加密货币时代。',
       tag: '区块 0',
       icon: Database,
-      img: 'https://images.unsplash.com/photo-1622630998477-20b41cd0e025?q=80&w=800&auto=format&fit=crop'
+      img: 'https://images.unsplash.com/photo-1518546305927-5a555bb7020d?q=80&w=800&auto=format&fit=crop'
     },
     {
       date: '2015 JUL 30',
